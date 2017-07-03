@@ -11,12 +11,12 @@
       "twitter": ""
     },
     {
-      "name": "",
+      "name": "Teste",
       "image": "",
-      "area": [""],
-      "technologies": [""],
-      "level": [""],
-      "email": "",
+      "area": ["back-end"],
+      "technologies": ["python"],
+      "level": ["intermédiario"],
+      "email": "teste@teste.com",
       "facebook": "",
       "twitter": ""
     }
