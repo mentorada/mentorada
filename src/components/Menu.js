@@ -25,7 +25,7 @@ export default class Menu extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Sobre o projeto</NavLink>
+                <NavLink href="https://github.com/mentorada/mentorada/blob/master/README.md">Sobre o projeto</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

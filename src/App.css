@@ -10,6 +10,10 @@ body{
   margin-right: 5px;
 }
 
+.navbar{
+  background-color: #fff;
+}
+
 .navbar-brand{
   font-family: 'Pacifico', cursive;
   font-size: 2rem;
