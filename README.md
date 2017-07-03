@@ -35,7 +35,7 @@ Para ser mentorada por alguém visite a [lista de mentoras](https://mentorada.gi
 
  :white_check_mark: indica que a mentora está rebendo pessoas para mentorar   
   :x: indica que a mentora não pode mentorar mais ninguém no memento   
-**<span style="color:#5bc0de">Área</span>**: Área de especialidade da mentora (área em que ela trabalha ou tem mais experiência)   
-**<span style="color:#f0ad4e">Nível</span>**: Nível de conhecimento das pessoas que ela pode a ajudar   
-**<span style="color:#636c72">Tecnologias</span>**: Lista de tecnologias que ela domina e nas quais pode ajudar alguém    
-**<span style="color:#9b59b6">Contato</span>**: Formas de entrar em contato com ela (é por aqui que você vai procurar a mentora e se apresentar)   
+![area](/img/area.png): Área de especialidade da mentora (área em que ela trabalha ou tem mais experiência)   
+![nivel](/img/nivel.png): Nível de conhecimento das pessoas que ela pode a ajudar   
+![tecnologias](/img/tech.png): Lista de tecnologias que ela domina e nas quais pode ajudar alguém    
+![contato](/img/contato.png): Formas de entrar em contato com ela (é por aqui que você vai procurar a mentora e se apresentar)   
