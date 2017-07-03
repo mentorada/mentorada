@@ -39,6 +39,18 @@ body{
   margin: 50px 100px;
 }
 
+.accepting-true, .accepting-false{
+  margin-left: 5px;
+}
+
+.accepting-true{
+  color: #2ecc71;
+}
+
+.accepting-false{
+  color: #e74c3c;
+}
+
 .badge{
   margin-right: 5px;
 }

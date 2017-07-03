@@ -6,6 +6,7 @@
       "area": ["front-end"],
       "technologies": ["html", "css", "javaScript", "python"],
       "level": ["iniciante"],
+      "accepting": true,
       "email": "camilaavilarinho@gmail.com",
       "facebook": "https://www.facebook.com/camilaavilarinho",
       "twitter": ""
@@ -16,6 +17,7 @@
       "area": ["back-end"],
       "technologies": ["python"],
       "level": ["intermédiario"],
+      "accepting": false,
       "email": "teste@teste.com",
       "facebook": "",
       "twitter": ""

@@ -19,6 +19,7 @@ const MentorList = ({ data, filter })=> {
       area={mentor.area}
       technologies={mentor.technologies}
       level={mentor.level}
+      accepting={mentor.accepting}
       email={mentor.email}
       facebook={mentor.facebook}
       twitter={mentor.twitter}
