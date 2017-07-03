@@ -21,7 +21,7 @@ export default class Menu extends React.Component {
       <div>
         <Navbar color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand href="/"><img src={logo} className="app-logo" alt="logo" />MentorAda</NavbarBrand>
+          <NavbarBrand href=""><img src={logo} className="app-logo" alt="logo" />MentorAda</NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
