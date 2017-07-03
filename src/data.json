@@ -1,0 +1,24 @@
+{
+  "mentors":[
+    {
+      "name": "Camila Vilarinho",
+      "image": "https://avatars2.githubusercontent.com/u/11904362?v=3&s=460",
+      "area": ["front-end"],
+      "technologies": ["html", "css", "javaScript", "python"],
+      "level": ["iniciante"],
+      "email": "camilaavilarinho@gmail.com",
+      "facebook": "https://www.facebook.com/camilaavilarinho",
+      "twitter": ""
+    },
+    {
+      "name": "",
+      "image": "",
+      "area": [""],
+      "technologies": [""],
+      "level": [""],
+      "email": "",
+      "facebook": "",
+      "twitter": ""
+    }
+  ]
+}

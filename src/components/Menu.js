@@ -1,5 +1,6 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import logo from '../mentorada-logo.png';
 
 export default class Menu extends React.Component {
   constructor(props) {
@@ -20,14 +21,11 @@ export default class Menu extends React.Component {
       <div>
         <Navbar color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand href="/">MentorAda</NavbarBrand>
+          <NavbarBrand href="/"><img src={logo} className="app-logo" alt="logo" />MentorAda</NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
+                <NavLink href="/components/">Sobre o projeto</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

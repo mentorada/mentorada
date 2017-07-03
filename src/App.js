@@ -1,36 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 import Main from './components/Main';
+import mentors from './data'
 
-const DATA = [
-  {
-    name: 'Camila',
-    image: '',
-    area: 'front-end',
-    technologies: 'html',
-    level: 'iniciante',
-  },
-  {
-    name: 'Ana',
-    image: '',
-    area: 'back-end',
-    technologies: 'python',
-    level: 'iniciante',
-  },
-  {
-    name: 'Maria',
-    image: '',
-    area: 'back-end',
-    technologies: 'python',
-    level: 'iniciante',
-  },
-];
+const DATA = mentors;
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Main data={DATA} />
+        <Main data={DATA.mentors} />
       </div>
     );
   }

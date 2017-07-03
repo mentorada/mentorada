@@ -1,21 +1,65 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+  background-color: #ecf0f1;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.app-logo{
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler{
+  color: #8e44ad;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler:hover{
+  color: #9b59b6;
 }
 
-.App-intro {
-  font-size: large;
+.form-group input{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.form-group input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.card-columns{
+  margin: 50px 100px;
+}
+
+.badge{
+  margin-right: 5px;
+}
+img{
+  height: 100px;
+  width: 100px;
+}
+.card-img{
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.card-subtitle, .card-text{
+  font-size: 20px;
+}
+
+.contact{
+  margin-top: 7px;
+}
+.contact a{
+  margin: 5px;
+  color: #9b59b6;
+}
+.contact i{
+  font-size: 25px;
 }
 
 @keyframes App-logo-spin {

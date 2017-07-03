@@ -1,26 +1,33 @@
 import React from 'react';
-import {Container, Row, Col} from 'reactstrap';
+import {CardColumns} from 'reactstrap';
 import Mentor from './Mentor';
 
-const MentorList = ({ data })=> {
-  const mentors = data.map((mentor, i)=> (
-    <Col md="3">
-      <Mentor
-        image={mentor.image}
-        name={mentor.name}
-        key={i}
-        area={mentor.area}
-        technologies={mentor.technologies}
-        level={mentor.level}
-      />
-    </ Col>
+const MentorList = ({ data, filter })=> {
+  const input = filter.trim().toLowerCase();
+  const mentors = data
+  .filter(mentor => (
+    mentor.name.toLowerCase().match(input) ||
+    mentor.area.find((val)=> val.match(input))||
+    mentor.level.find((val)=> val.match(input))||
+    mentor.technologies.find((val)=> val.match(input))
+  ))
+  .map((mentor, i)=> (
+    <Mentor
+      image={mentor.image}
+      name={mentor.name}
+      key={i}
+      area={mentor.area}
+      technologies={mentor.technologies}
+      level={mentor.level}
+      email={mentor.email}
+      facebook={mentor.facebook}
+      twitter={mentor.twitter}
+    />
   ));
   return(
-    <Container>
-      <Row>
-        {mentors}
-      </Row>
-    </Container>
+    <CardColumns>
+      {mentors}
+    </CardColumns>
   )
 };
 
