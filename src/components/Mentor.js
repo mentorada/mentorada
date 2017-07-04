@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBlock,
   CardTitle, CardSubtitle, Badge } from 'reactstrap';
+import mentorImg from '../mentor-img.png';
 
 const Mentor = ({image, name, area, technologies, level, accepting, email, facebook, twitter}) => {
   const areas = area.map((area, i)=>
@@ -17,7 +18,7 @@ const Mentor = ({image, name, area, technologies, level, accepting, email, faceb
 
   let photo = image;
   if(photo === ""){
-    photo = "http://www.ualberta.ca/~uaac/female%20placeholder.png";
+    photo = mentorImg;
   }
 
   let isaccepting = null;
