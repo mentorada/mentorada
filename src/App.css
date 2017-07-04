@@ -84,4 +84,7 @@ and (max-device-width : 480px){
   .card-columns{
     margin: 3rem 3rem;
   }
+  .card{
+    margin-bottom: 10px;
+  }
 }
