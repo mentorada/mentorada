@@ -3,16 +3,16 @@ import { Card, CardImg, CardText, CardBlock,
   CardTitle, CardSubtitle, Badge } from 'reactstrap';
 
 const Mentor = ({image, name, area, technologies, level, accepting, email, facebook, twitter}) => {
-  const areas = area.map((area)=>
-    <Badge color="info">{area}</Badge>
+  const areas = area.map((area, i)=>
+    <Badge color="info" key={i}>{area}</Badge>
   );
 
-  const techs = technologies.map((tech)=>
-    <Badge>{tech}</Badge>
+  const techs = technologies.map((tech, i)=>
+    <Badge key={i}>{tech}</Badge>
   );
 
-  const levels = level.map((level)=>
-    <Badge color="warning">{level}</Badge>
+  const levels = level.map((level, i)=>
+    <Badge color="warning" key={i}>{level}</Badge>
   );
 
   let photo = image;

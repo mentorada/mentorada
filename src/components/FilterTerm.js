@@ -7,7 +7,6 @@ export default class FilterTerm extends React.Component {
     return(
       <Form>
         <FormGroup>
-          <span class="fa fa-search"></span>
           <input
             className="form-control"
             type="text"
