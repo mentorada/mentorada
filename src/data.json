@@ -12,13 +12,13 @@
       "twitter": ""
     },
     {
-      "name": "Teste",
+      "name": "",
       "image": "",
-      "area": ["back-end"],
-      "technologies": ["python"],
-      "level": ["intermédiario"],
-      "accepting": false,
-      "email": "teste@teste.com",
+      "area": [""],
+      "technologies": [""],
+      "level": [""],
+      "accepting": true,
+      "email": "",
       "facebook": "",
       "twitter": ""
     }
