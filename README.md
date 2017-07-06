@@ -10,7 +10,11 @@ Conectar mulheres que estão começando ou que precisem de uma orientação em a
 ### Quero ser mentora!
 Para ser mentora, você só precisa ter um tempo livre para ajudar outras mulheres que precisam de ajuda em alguma área. Elas vão entrar em contato com você e você está livre para decidir como vai ser a mentoria, seja conversando e tirando dúvidas sobre a área em que você atua, dando dicas do que estudar ou até mesmo ensinando o que você sabe.    
 
-Para colocar seu nome na lista edite o arquivo [`data.json`](https://github.com/mentorada/mentorada/blob/master/src/data.json) e depois envie um pull request para este repositório. Dentro dele, preencha as seguintes informações sobre você:
+Para colocar seu nome na lista edite o arquivo [`data.json`](https://github.com/mentorada/mentorada/blob/master/src/data.json) e depois envie um pull request para este repositório.
+
+**Mais informações sobre como contribuir em [CONTRIBUTING.md](https://github.com/mentorada/mentorada/blob/master/CONTRIBUTING.md)**
+
+Dentro de `data.json`, preencha as seguintes informações sobre você:
 
 `name`: o seu nome   
 `image`: link para uma foto sua   
@@ -39,3 +43,6 @@ Para ser mentorada por alguém visite a [lista de mentoras](https://mentorada.gi
 ![nivel](/img/nivel.png): Nível de conhecimento das pessoas que ela pode a ajudar   
 ![tecnologias](/img/tech.png): Lista de tecnologias que ela domina e nas quais pode ajudar alguém    
 ![contato](/img/contato.png): Formas de entrar em contato com ela (é por aqui que você vai procurar a mentora e se apresentar)   
+
+## Contribuindo
+Mais informações sobre como contribuir em [CONTRIBUTING.md](https://github.com/mentorada/mentorada/blob/master/CONTRIBUTING.md)
