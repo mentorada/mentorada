@@ -18,6 +18,9 @@ Dentro do diretório *mentorada* rode:
 `npm install`  
 `npm start`
 
+#### Tecnologia
+O projeto é feito usando [ReactJs](https://facebook.github.io/react/)
+
 ## 4. Começe a contribuir
 
 Adicione seu nome como mentora, editando o arquivo [data.json](https://github.com/mentorada/mentorada/blob/master/src/data.json) seguindo [estas instruções](https://github.com/mentorada/mentorada#quero-ser-mentora)
