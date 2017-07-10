@@ -12,6 +12,17 @@
       "twitter": ""
     },
     {
+      "name": "Jéssica Paz",
+      "image": "https://avatars2.githubusercontent.com/u/20428941?v=3&s=460",
+      "area": ["back-end"],
+      "technologies": ["python","c#", "html", "javaScript"],
+      "level": ["iniciante"],
+      "accepting": true,
+      "email": "jessicamorim.42@gmail.com",
+      "facebook": "https://www.facebook.com/jessicamorim.42",
+      "twitter": ""
+    },
+    {
       "name": "",
       "image": "",
       "area": [""],
